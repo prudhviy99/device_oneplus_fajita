@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
+# OPCam priv-app Whitelist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-opcam.xml:system/etc/permissions/privapp-permissions-opcam.xml
+
 # Power
 PRODUCT_PACKAGES += \
     power.qcom:64
