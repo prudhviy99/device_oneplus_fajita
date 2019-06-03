@@ -35,6 +35,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a75
 
 TARGET_USES_64_BIT_BINDER := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm845
 TARGET_NO_BOOTLOADER := true
