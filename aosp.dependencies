@@ -1,0 +1,13 @@
+[
+  {
+    "repository" : "vendor_oneplus_fajita",
+    "target_path": "vendor/oneplus/fajita",
+    "branch": "pie"
+  },
+  {
+    "repository": "aosip-devices/kernel_oneplus_sdm845",
+    "target_path": "kernel/oneplus/sdm845",
+    "branch": "staging",
+    "remote": "github"
+  }
+]
