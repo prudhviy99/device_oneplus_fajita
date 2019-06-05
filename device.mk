@@ -112,9 +112,13 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    NfcNci \
+    android.hardware.nfc@1.0:64 \
+    android.hardware.nfc@1.1:64 \
+    android.hardware.secure_element@1.0:64 \
+    com.android.nfc_extras \
+    vendor.nxp.nxpese@1.0:64 \
     Tag \
-    com.android.nfc_extras
+    vendor.nxp.nxpnfc@1.0:64
 
 # OPCam priv-app Whitelist
 PRODUCT_COPY_FILES += \
