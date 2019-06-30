@@ -24,7 +24,7 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common PE stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
-export CUSTOM_BUILD_TYPE=OFFICIAL
+#export CUSTOM_BUILD_TYPE=OFFICIAL
 
 PRODUCT_NAME := aosp_fajita
 PRODUCT_DEVICE := fajita
